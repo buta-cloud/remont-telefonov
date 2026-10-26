@@ -52,6 +52,9 @@
   .v-page .v-lede { font-weight: 400; }
   .v-page .v-label { font-weight: 500; }
   .v-page .v-btn { font-size: var(--v-t-base); font-weight: 600; }
+  /* серебристая кнопка заявки: тёмный текст (≈12:1), рамка отделяет её от светлого холста */
+  .v-page a.v-btn:not(.v-btn--ghost) { background: linear-gradient(180deg, #f6f7f9 0%, #c3c9d0 100%); color: #1a1d21; box-shadow: inset 0 0 0 1px #8d96a0, var(--v-e1); }
+  .v-page a.v-btn:not(.v-btn--ghost):hover { background: linear-gradient(180deg, #ffffff 0%, #cfd4da 100%); box-shadow: inset 0 0 0 1px #6f7882, var(--v-e2); }
   .v-page h3 { font-weight: 600; }
 
   /* ---- шапка ------------------------------------------------------------ */
